@@ -1,0 +1,20 @@
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.8em;
+	flex-wrap: wrap;
+}
+
+.nav__links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	flex-wrap: wrap;
+}
+
+nav > div {
+	display: flex;
+	gap: 1em;
+}

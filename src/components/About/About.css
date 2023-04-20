@@ -1,0 +1,46 @@
+.aboutLeft h2 {
+	font-size: 2.4em;
+	font-weight: 500;
+	color: rgb(112, 131, 225);
+	margin-bottom: 1em;
+	background-color: #001521;
+}
+
+.about {
+	display: flex;
+	color: lightblue;
+}
+
+.about__cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1em;
+
+	color: lightblue;
+	width: 80%;
+}
+
+.about__cards p {
+	opacity: 0.8;
+	font-size: 0.9em;
+}
+
+.about__card {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2em;
+}
+
+.aboutRight {
+	overflow: hidden;
+}
+
+.aboutRight #semicircle {
+	width: 400px;
+	height: 400px;
+	position: relative;
+	background-color: blue;
+	border-radius: 50%;
+	left: 2%%;
+	overflow: hidden;
+}

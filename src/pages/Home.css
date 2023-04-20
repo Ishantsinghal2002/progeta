@@ -1,0 +1,26 @@
+.cards {
+	display: flex;
+	justify-content: space-around;
+	background-color: 
+#061E26;
+}
+
+.testimonials {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+.landing_top{
+	background-color: #00111C;
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+.abc{
+	background-color: #00111C;
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+	height: auto;
+}

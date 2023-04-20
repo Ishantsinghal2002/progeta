@@ -1,0 +1,50 @@
+.contact {
+	padding: 0 1em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	padding-top: 2em;
+}
+
+.contact h2 {
+	font-size: 2.4em;
+	font-weight: 500;
+	color: rgb(101, 126, 253);
+	margin-bottom: 0.5em;
+}
+
+.contact form {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	color: rgb(112, 131, 225);
+}
+
+.contact form input {
+	padding: 0.4em 0.8em;
+	border-radius: 1em;
+	border: none;
+	width: 100%;
+}
+
+.contact textarea {
+	padding: 0.4em 0.8em;
+}
+
+.form__row {
+	display: flex;
+	justify-content: space-between;
+	gap: 2em;
+}
+
+.form__item {
+	display: flex;
+	flex-direction: column;
+	gap: 0.3em;
+	font-size: 0.9em;
+	width: 100%;
+}
+
+form button {
+	width: fit-content;
+}
